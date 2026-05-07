@@ -1,3 +1,13 @@
 {
-  "estado": "ON"
+  "estado": "ON",
+  "macs_permitidas": [
+    "AA:BB:CC:DD:EE:FF",
+    "11:22:33:44:55:66"
+  ],
+  "ips_permitidas": [
+    "192.168.1.100",
+    "181.199.50.25",
+    "192.168.1.6"
+  ],
+  "modo_validacion": "MAC_O_IP"
 }
